@@ -6,8 +6,8 @@
 package task_2;
 
 /**
- *  NIM = .............................................
- *  Nama = .............................................
+ *  NIM = 1301154152
+ *  Nama = Valentino Wahyu Gusti Arson
  */
 public class Main {
 
@@ -24,7 +24,7 @@ public class Main {
         m1.addNilai('B');
         m1.addNilai('D');
         System.out.println(m1);
-        // akan mengoutputkan tulisan: 001, Budi, Tidak Lulus, Nilai = C,D,B,D,
+        // akan mengoutputkan tulisan: 001, Budi, TIDAK LULUS, Nilai = C,D,B,D,
         System.out.println(m1.getNilai(2));
         // akan mengoutputkan B
 
@@ -34,9 +34,9 @@ public class Main {
         m2.addNilai('E');
         m2.addNilai('C');
         m2.addNilai('B');
-        m2.setStatus("Lulus");
+        m2.setStatus("LULUS");
         System.out.println(m2);
-        // akan mengoutputkan tulisan: 002, Eka, Lulus, Nilai = A,B,E,C,B,
+        // akan mengoutputkan tulisan: 002, Eka, LULUS, Nilai = A,B,E,C,B,
 
         // output kode berikut harus menghasilkan nilai yang sama yaitu=B
         char h1 = m1.cekNilai(m2);
